@@ -11,15 +11,24 @@ h1 {
 .container{
     display: flex;
     flex-wrap: wrap;
-    width: 320px;
+    width: 400px;
     margin: auto;
+    margin-top: 1%;
 }
 .square{
-    width: 18px;
-    height: 18px;
     border: 1px solid black;
 }
 
 .square:hover {
     background-color: violet;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.size-button {
+    margin: auto;
+    margin-top: 1%;
 }
